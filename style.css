@@ -130,5 +130,19 @@ body {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .container h1 {
+        font-size: 28px;
+    }
+    
+}
+
+
 
 
