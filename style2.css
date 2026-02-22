@@ -17,8 +17,8 @@ body {
 }
 
 .container {
-    width: 80%;
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -100,6 +100,7 @@ body {
 }
 
 .input-box input {
+    font-size: 16px;
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
@@ -196,14 +197,10 @@ body {
     }
 
     .input-group {
-        font-size: 16px;
         transform: none;
         flex-direction: column;
         flex-wrap: nowrap;
         padding-right: 4.4rem;
-    }
-    .input-box input {
-        font-size: 16px;
     }
     .gender-inputs {
         margin-top: 0;
@@ -213,6 +210,12 @@ body {
     }
     .gender-input {
         margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        align-items: flex-start;
     }
 }
 
