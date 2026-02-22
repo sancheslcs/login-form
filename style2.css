@@ -102,7 +102,6 @@ body {
 .input-box input {
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
-    font-size: 13px;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
@@ -213,6 +212,7 @@ body {
         margin-top: 0.5rem;
     }
 }
+
 
 
 
