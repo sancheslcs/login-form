@@ -174,7 +174,18 @@ body {
         width: 50%;
     }
     .form {
+        display: flex;
         width: 100%;
+        overflow-y: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-height: 80vh;
+    }
+
+    .form-header h1::after {
+        position: sticky;
+        margin-left: 0;
     }
 }
 
@@ -183,20 +194,20 @@ body {
         width: 90%;
         height: auto;
     }
+
     .input-group {
         flex-direction: column;
-        overflow-y: scroll;
         flex-wrap: nowrap;
-        max-height: 10rem;
         padding-right: 5rem;
     }
     .gender-inputs {
-        margin-top: 2rem;
+        margin-top: 0;
     }
     .gender-group {
-        flex-direction: column;
+        flex-direction: column;;
     }
     .gender-input {
         margin-top: 0.5rem;
     }
 }
+
