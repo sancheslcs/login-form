@@ -180,11 +180,11 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        max-height: 50vh;
+        max-height: 80vh; 
     }
 
     .form-header h1::after {
-        position: static;
+        position: sticky;
         margin-left: 0;
     }
 }
@@ -210,6 +210,7 @@ body {
         margin-top: 0.5rem;
     }
 }
+
 
 
 
