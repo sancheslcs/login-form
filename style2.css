@@ -193,7 +193,7 @@ body {
 @media screen and (max-width: 1064px) {
     .container {
         width: 90%;
-        height: 60vh;
+        height: 50vh;
     }
 
     .input-group {
@@ -211,6 +211,7 @@ body {
         margin-top: 0.5rem;
     }
 }
+
 
 
 
