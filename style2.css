@@ -17,8 +17,8 @@ body {
 }
 
 .container {
-    min-height: 80vh;
-    height: auto;
+    width: 80%;
+    height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -181,7 +181,7 @@ body {
         overflow-x: hidden;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: center;  
     }
 
     .form-header h1::after {
@@ -197,7 +197,6 @@ body {
     }
 
     .input-group {
-        transform: none;
         flex-direction: column;
         flex-wrap: nowrap;
         padding-right: 4.4rem;
@@ -210,12 +209,6 @@ body {
     }
     .gender-input {
         margin-top: 0.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        align-items: flex-start;
     }
 }
 
