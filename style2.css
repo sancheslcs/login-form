@@ -177,6 +177,7 @@ body {
         display: flex;
         width: 100%;
         overflow-y: auto;
+        overflow-x: hidden;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -192,8 +193,7 @@ body {
 @media screen and (max-width: 1064px) {
     .container {
         width: 90%;
-        height: 80vh;
-        position: relative;
+        height: 60vh;
     }
 
     .input-group {
@@ -211,6 +211,7 @@ body {
         margin-top: 0.5rem;
     }
 }
+
 
 
 
