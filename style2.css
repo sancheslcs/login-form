@@ -191,7 +191,6 @@ body {
 
 @media screen and (max-width: 1064px) {
     .container {
-        display: block;
         width: 90%;
         height: 80vh;
     }
@@ -211,6 +210,7 @@ body {
         margin-top: 0.5rem;
     }
 }
+
 
 
 
