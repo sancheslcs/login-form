@@ -184,7 +184,7 @@ body {
     }
 
     .form-header h1::after {
-        position: sticky;
+        position: static;
         margin-left: 0;
     }
 }
@@ -210,5 +210,6 @@ body {
         margin-top: 0.5rem;
     }
 }
+
 
 
