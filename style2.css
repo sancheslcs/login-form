@@ -199,7 +199,7 @@ body {
     .input-group {
         flex-direction: column;
         flex-wrap: nowrap;
-        padding-right: 5rem;
+        padding-right: 0;
     }
     .gender-inputs {
         margin-top: 0;
@@ -211,6 +211,7 @@ body {
         margin-top: 0.5rem;
     }
 }
+
 
 
 
